@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Personal website for Maya Douglas." />
+  <title>Resume · Maya Douglas</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/style.css" />
+  <script defer src="assets/script.js"></script>
+</head>
+<body>
+  <div class="page-wrap">
+
+    <header class="site-header">
+      <a class="brand" href="index.html" aria-label="Home">
+        <span class="logo-circle">MD</span>
+        <span class="brand-text">Maya Douglas</span>
+      </a>
+      <button class="menu-toggle" aria-label="Open navigation" onclick="toggleMenu()">
+        <span></span><span></span><span></span>
+      </button>
+      <nav id="site-nav" class="site-nav">
+        <a href="index.html" class="">Home</a>
+        <a href="about.html" class="">About</a>
+        <a href="resume.html" class="active">Resume</a>
+        <a href="projects.html" class="">Projects</a>
+        <a href="organizations.html" class="">Organizations</a>
+        <a href="contact.html" class="">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+
+<section class="page-header">
+  <h1>Resume</h1>
+  <p class="lede">Here’s a simple, ATS‑friendly version. Ask for a copy and I’ll send a PDF.</p>
+</section>
+
+<section class="resume">
+  <h2>Education</h2>
+  <div class="resume-item">
+    <div>
+      <h3>Virginia State University — B.S. Computer Science</h3>
+      <p class="muted">2024–Present</p>
+    </div>
+    <ul>
+      <li>Relevant: Programming I/II, Technical Communication, Calculus</li>
+      <li>Current focus: web fundamentals and portfolio projects</li>
+    </ul>
+  </div>
+
+  <h2>Experience</h2>
+  <div class="resume-item">
+    <div>
+      <h3>Customer Associate — CVS / American Family Fitness</h3>
+      <p class="muted">Part‑time · 2024–Present</p>
+    </div>
+    <ul>
+      <li>Juggled customer support with school; learned time management and communication</li>
+      <li>Handled fast‑paced tasks while staying patient and organized</li>
+    </ul>
+  </div>
+
+  <h2>Skills</h2>
+  <ul class="skills">
+    <li>HTML/CSS</li>
+    <li>JavaScript</li>
+    <li>Git & GitHub</li>
+    <li>Figma (basics)</li>
+    <li>Excel/Google Sheets</li>
+    <li>Communication & teamwork</li>
+  </ul>
+
+  <div class="resume-actions">
+    <a class="btn" href="#" onclick="window.print()">Print / Save as PDF</a>
+  </div>
+</section>
+
+    </main>
+
+    <footer class="site-footer">
+      <p>© 2025 Maya Douglas · Built with HTML, CSS, and a sprinkle of JS</p>
+      <p><a href="mailto:maya@example.com">maya@example.com</a></p>
+    </footer>
+
+  </div>
+</body>
+</html>

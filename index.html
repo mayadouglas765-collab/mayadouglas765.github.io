@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Personal website for Maya Douglas." />
+  <title>Home · Maya Douglas</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/style.css" />
+  <script defer src="assets/script.js"></script>
+</head>
+<body>
+  <div class="page-wrap">
+
+    <header class="site-header">
+      <a class="brand" href="index.html" aria-label="Home">
+        <span class="logo-circle">MD</span>
+        <span class="brand-text">Maya Douglas</span>
+      </a>
+      <button class="menu-toggle" aria-label="Open navigation" onclick="toggleMenu()">
+        <span></span><span></span><span></span>
+      </button>
+      <nav id="site-nav" class="site-nav">
+        <a href="index.html" class="active">Home</a>
+        <a href="about.html" class="">About</a>
+        <a href="resume.html" class="">Resume</a>
+        <a href="projects.html" class="">Projects</a>
+        <a href="organizations.html" class="">Organizations</a>
+        <a href="contact.html" class="">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+
+<section class="hero">
+  <div class="hero-content">
+    <p class="eyebrow">Computer Science @ Virginia State University</p>
+    <h1>Hey, I’m <span class="accent">Maya Douglas</span>.</h1>
+    <p class="lede">
+      I’m a CS student who loves building clean, useful interfaces and learning in public.
+      This is my corner of the internet — projects, campus orgs, and what I’m working on now.
+    </p>
+    <div class="hero-cta">
+      <a class="btn primary" href="projects.html">See my projects</a>
+      <a class="btn" href="resume.html">View resume</a>
+    </div>
+  </div>
+  <div class="hero-art" aria-hidden="true">
+    <div class="blob"></div>
+  </div>
+</section>
+
+<section class="highlights">
+  <h2>Highlights</h2>
+  <div class="cards">
+    <article class="card">
+      <h3>Frontend foundations</h3>
+      <p>HTML, CSS, and JavaScript — with a focus on accessible, responsive design.</p>
+    </article>
+    <article class="card">
+      <h3>Projects you can browse</h3>
+      <p>From class utilities to portfolio experiments. I ship, reflect, and iterate.</p>
+    </article>
+    <article class="card">
+      <h3>Campus involvement</h3>
+      <p>Active in orgs that support women in tech and Black engineers.</p>
+    </article>
+  </div>
+</section>
+
+    </main>
+
+    <footer class="site-footer">
+      <p>© 2025 Maya Douglas · Built with HTML, CSS, and a sprinkle of JS</p>
+      <p><a href="mailto:maya@example.com">maya@example.com</a></p>
+    </footer>
+
+  </div>
+</body>
+</html>

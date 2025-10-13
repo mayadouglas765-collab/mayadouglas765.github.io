@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Personal website for Maya Douglas." />
+  <title>Projects · Maya Douglas</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/style.css" />
+  <script defer src="assets/script.js"></script>
+</head>
+<body>
+  <div class="page-wrap">
+
+    <header class="site-header">
+      <a class="brand" href="index.html" aria-label="Home">
+        <span class="logo-circle">MD</span>
+        <span class="brand-text">Maya Douglas</span>
+      </a>
+      <button class="menu-toggle" aria-label="Open navigation" onclick="toggleMenu()">
+        <span></span><span></span><span></span>
+      </button>
+      <nav id="site-nav" class="site-nav">
+        <a href="index.html" class="">Home</a>
+        <a href="about.html" class="">About</a>
+        <a href="resume.html" class="">Resume</a>
+        <a href="projects.html" class="active">Projects</a>
+        <a href="organizations.html" class="">Organizations</a>
+        <a href="contact.html" class="">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+
+<section class="page-header">
+  <h1>Projects</h1>
+  <p class="lede">A growing list of things I’ve built or explored. More coming soon.</p>
+</section>
+
+<section class="cards projects-grid">
+  <article class="card project">
+    <h3>Utility Bill Calculator</h3>
+    <p>A small Python program for calculating billing totals and validating input.</p>
+    <ul class="tags"><li>Python</li><li>VS Code</li></ul>
+    <a class="arrow-link" href="#" aria-disabled="true">Repo coming soon</a>
+  </article>
+
+  <article class="card project">
+    <h3>Personal Website</h3>
+    <p>This site — designed with AI and hand‑edited. Responsive and accessible.</p>
+    <ul class="tags"><li>HTML</li><li>CSS</li><li>JavaScript</li></ul>
+    <a class="arrow-link" href="index.html">View site</a>
+  </article>
+
+  <article class="card project">
+    <h3>Student Loan Survey & Charts</h3>
+    <p>Open‑ended survey categorized into pie‑chart insights for a class project.</p>
+    <ul class="tags"><li>Research</li><li>Data viz</li></ul>
+    <a class="arrow-link" href="#" aria-disabled="true">Write‑up coming soon</a>
+  </article>
+</section>
+
+    </main>
+
+    <footer class="site-footer">
+      <p>© 2025 Maya Douglas · Built with HTML, CSS, and a sprinkle of JS</p>
+      <p><a href="mailto:maya@example.com">maya@example.com</a></p>
+    </footer>
+
+  </div>
+</body>
+</html>
